@@ -10,7 +10,7 @@ Installation
 ------------
 
 ###Direct command:
-`drush make https://raw.github.com/investic/oinarri/master/build-oinarri.make`
+`drush make https://raw.github.com/investic/oinarri/master/build-oinarri.make target-folder`
 
 ###Drush make builder file:
 1.Create a file with the following content:
@@ -30,4 +30,4 @@ Installation
 
 2.Run the following command:
 
-`drush make NAME_OF_THE_BUILDER_FILE TARGET_FOLDER`
+`drush make name-of-the-builder.make target-folder`
