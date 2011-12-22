@@ -9,5 +9,5 @@ projects[drupal][version] = "7.10"
 
 projects[oinarri][type] = "profile"
 projects[oinarri][download][type] = "git"
-projects[oinarri][download][url] = "/home/oier/drupal_profiles/obubase.tar"
+projects[oinarri][download][url] = "git://github.com/investic/oinarri.git"
 
