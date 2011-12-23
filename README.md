@@ -1,13 +1,13 @@
 Oinarri Install Profile
 =======================
 
-Requirements
-------------
+Requirements:
+-------------
 
 [Drush make](http://drupal.org/project/drush_make)
 
-Installation
-------------
+Installation:
+-------------
 
 ###Direct command:
 `drush make https://raw.github.com/investic/oinarri/master/build-oinarri.make target-folder`
@@ -31,3 +31,6 @@ Installation
 2.Run the following command:
 
 `drush make name-of-the-builder.make target-folder`
+
+###NOTES:
+You can add `--prepare-install` to the `drush make` command to automatically create `files`and `settings.php`.
